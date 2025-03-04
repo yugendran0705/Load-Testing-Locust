@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 # users=[]
 # for i in requests.get("http://localhost:8080/api/user",
-#                       headers={"Authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZWdubyI6MTI1MTU2MTQ0LCJpYXQiOjE3MTYzOTcxOTR9.CQksCo7SM9iz9svQQEMHkknHoQTfuo5dp4QPWpptjV4"},
+#                       headers={"Authorization":"Bearer {token}"},
 #                         ).json()['data']:
 #     users.append(i['regno'])
 
